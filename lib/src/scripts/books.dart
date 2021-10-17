@@ -105,7 +105,7 @@ class BookInfo {
   /// The industryIdentifiers of the book (ISBN)
   final List<IndustryIdentifier> industryIdentifier;
 
-  const BookInfo({
+  BookInfo({
     required this.title,
     required this.authors,
     required this.publisher,
