@@ -85,10 +85,10 @@ class BookInfo {
   final List<String> categories;
 
   /// The average rating
-  final double averageRating;
+  double averageRating;
 
   /// How many people rated the book
-  final int ratingsCount;
+  int ratingsCount;
 
   /// Wether the book is mature or not
   final String maturityRating;
